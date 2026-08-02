@@ -7,7 +7,7 @@ p:first-child{
 	background:black;
 }
 p:nth-child(2){
-	color:standard;
+	color:initial;
 }
 p:last-child{
 	color:red;
@@ -23,6 +23,9 @@ ul li:nth-child(odd){
 ul li:nth-child(3){
 	background-color:pink;
 }
-ul li:first-child:last-child{
+ul li:first-child:{
+	font-size:22px;
+}
+ul li:last-child:{
 	font-size:22px;
 }
